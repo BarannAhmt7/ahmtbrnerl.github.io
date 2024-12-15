@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+header {
+    background-color: #0000004a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #575757;
+}
+.hero {
+   
+        text-align: center;
+        padding: 2rem;
+        background: url('hero-image.jpg') no-repeat center center/cover;
+        color: rgb(1, 1, 1);
+    }
+    
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.container {
+    padding: 2rem;
+}
+.card {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #ff6c6c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #45a049;
+}
